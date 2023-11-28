@@ -1,0 +1,93 @@
+body {
+
+    margin: 3% 10%;
+    background-color: #F0FFFF;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    height: 225px;
+    float: right;
+}
+
+#name {
+    font-weight: 800;
+    color: #5F9EA0;
+}
+
+#job {
+    font-weight: 700;
+    font-size: 25px;
+    color: #5F9EA0;
+}
+
+/* Contact Details as list items */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding: 0px 5px 15px 2px;
+}
+
+/* Icons */
+.fa-solid, .fa-brands {
+    padding-right: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #5F9EA0;
+}
+
+h3 {
+    background-color: #5F9EA0;
+    text-align: center;
+    font-weight: 700;
+    color:  #F0FFFF;
+    font-size: 20px;
+    padding: 5px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+td:nth-child(odd) {
+    padding-right: 40px;
+}
+
+.indent {
+    padding-left: 46px;
+}
+
+/* skills */
+.skills {
+    display: inline-block;
+    width: 180px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* language */
+.lngs {
+    display: inline-block;
+    width: 180px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* Hobbies */
+.hob {
+    display: inline-block;
+    color: #5F9EA0;
+    font-size: 20px;
+    width: 30px;
+}
+
+.hbs {
+    display: block;
+    margin-bottom: -15px;
+}
